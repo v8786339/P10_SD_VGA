@@ -1,0 +1,154 @@
+
+
+================================================================
+== Vivado HLS Report for 'vip1_m'
+================================================================
+* Date:           Sun Aug 16 08:57:32 2020
+
+* Version:        2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)
+* Project:        VIP
+* Solution:       VIP
+* Product family: zynq
+* Target device:  xc7z010clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.15|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+----------+
+    |      Latency      |      Interval     | Pipeline |
+    |   min   |   max   |   min   |   max   |   Type   |
+    +---------+---------+---------+---------+----------+
+    |  1233604|  1233604|  1233602|  1233602| dataflow |
+    +---------+---------+---------+---------+----------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------+----------------------+---------+---------+---------+---------+---------+
+        |                         |                      |      Latency      |      Interval     | Pipeline|
+        |         Instance        |        Module        |   min   |   max   |   min   |   max   |   Type  |
+        +-------------------------+----------------------+---------+---------+---------+---------+---------+
+        |Loop_loop_height_pro_U0  |Loop_loop_height_pro  |  1233601|  1233601|  1233601|  1233601|   none  |
+        |AXIvideo2Mat_U0          |AXIvideo2Mat          |   310563|   310563|   310563|   310563|   none  |
+        |Mat2AXIvideo_U0          |Mat2AXIvideo          |  1232641|  1232641|  1232641|  1232641|   none  |
+        +-------------------------+----------------------+---------+---------+---------+---------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+-------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF  |  LUT  |
++-----------------+---------+-------+-------+-------+
+|DSP              |        -|      -|      -|      -|
+|Expression       |        -|      -|      0|      8|
+|FIFO             |        0|      -|     30|    120|
+|Instance         |        6|      1|    906|   2088|
+|Memory           |        -|      -|      -|      -|
+|Multiplexer      |        -|      -|      -|      -|
+|Register         |        -|      -|      -|      -|
++-----------------+---------+-------+-------+-------+
+|Total            |        6|      1|    936|   2216|
++-----------------+---------+-------+-------+-------+
+|Available        |      120|     80|  35200|  17600|
++-----------------+---------+-------+-------+-------+
+|Utilization (%)  |        5|      1|      2|     12|
++-----------------+---------+-------+-------+-------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF |  LUT |
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |AXIvideo2Mat_U0          |AXIvideo2Mat          |        0|      0|  213|   552|
+    |Loop_loop_height_pro_U0  |Loop_loop_height_pro  |        6|      1|  574|  1078|
+    |Mat2AXIvideo_U0          |Mat2AXIvideo          |        0|      0|  119|   458|
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |Total                    |                      |        6|      1|  906|  2088|
+    +-------------------------+----------------------+---------+-------+-----+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +-------------------------+---------+---+----+------+-----+---------+
+    |           Name          | BRAM_18K| FF| LUT| Depth| Bits| Size:D*B|
+    +-------------------------+---------+---+----+------+-----+---------+
+    |imag0_0_data_stream_1_U  |        0|  5|  20|     1|    8|        8|
+    |imag0_0_data_stream_2_U  |        0|  5|  20|     1|    8|        8|
+    |imag0_0_data_stream_s_U  |        0|  5|  20|     1|    8|        8|
+    |imag_1_data_stream_0_U   |        0|  5|  20|     1|    8|        8|
+    |imag_1_data_stream_1_U   |        0|  5|  20|     1|    8|        8|
+    |imag_1_data_stream_2_U   |        0|  5|  20|     1|    8|        8|
+    +-------------------------+---------+---+----+------+-----+---------+
+    |Total                    |        0| 30| 120|     6|   48|       48|
+    +-------------------------+---------+---+----+------+-----+---------+
+
+    * Expression: 
+    +--------------+----------+-------+---+----+------------+------------+
+    | Variable Name| Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------+----------+-------+---+----+------------+------------+
+    |ap_idle       |    and   |      0|  0|   8|           1|           1|
+    +--------------+----------+-------+---+----+------------+------------+
+    |Total         |          |      0|  0|   8|           1|           1|
+    +--------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------+-----+-----+------------+-------------------+--------------+
+|    RTL Ports    | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++-----------------+-----+-----+------------+-------------------+--------------+
+|src_axi0_TDATA   |  in |   24|    axis    | src_axi0_V_data_V |    pointer   |
+|src_axi0_TKEEP   |  in |    3|    axis    | src_axi0_V_keep_V |    pointer   |
+|src_axi0_TSTRB   |  in |    3|    axis    | src_axi0_V_strb_V |    pointer   |
+|src_axi0_TUSER   |  in |    1|    axis    | src_axi0_V_user_V |    pointer   |
+|src_axi0_TLAST   |  in |    1|    axis    | src_axi0_V_last_V |    pointer   |
+|src_axi0_TID     |  in |    1|    axis    |  src_axi0_V_id_V  |    pointer   |
+|src_axi0_TDEST   |  in |    1|    axis    | src_axi0_V_dest_V |    pointer   |
+|src_axi0_TVALID  |  in |    1|    axis    | src_axi0_V_dest_V |    pointer   |
+|src_axi0_TREADY  | out |    1|    axis    | src_axi0_V_dest_V |    pointer   |
+|dst_axi_TDATA    | out |   24|    axis    |  dst_axi_V_data_V |    pointer   |
+|dst_axi_TKEEP    | out |    3|    axis    |  dst_axi_V_keep_V |    pointer   |
+|dst_axi_TSTRB    | out |    3|    axis    |  dst_axi_V_strb_V |    pointer   |
+|dst_axi_TUSER    | out |    1|    axis    |  dst_axi_V_user_V |    pointer   |
+|dst_axi_TLAST    | out |    1|    axis    |  dst_axi_V_last_V |    pointer   |
+|dst_axi_TID      | out |    1|    axis    |   dst_axi_V_id_V  |    pointer   |
+|dst_axi_TDEST    | out |    1|    axis    |  dst_axi_V_dest_V |    pointer   |
+|dst_axi_TVALID   | out |    1|    axis    |  dst_axi_V_dest_V |    pointer   |
+|dst_axi_TREADY   |  in |    1|    axis    |  dst_axi_V_dest_V |    pointer   |
+|ap_clk           |  in |    1| ap_ctrl_hs |       vip1_m      | return value |
+|ap_rst_n         |  in |    1| ap_ctrl_hs |       vip1_m      | return value |
+|ap_done          | out |    1| ap_ctrl_hs |       vip1_m      | return value |
+|ap_start         |  in |    1| ap_ctrl_hs |       vip1_m      | return value |
+|ap_ready         | out |    1| ap_ctrl_hs |       vip1_m      | return value |
+|ap_idle          | out |    1| ap_ctrl_hs |       vip1_m      | return value |
++-----------------+-----+-----+------------+-------------------+--------------+
+

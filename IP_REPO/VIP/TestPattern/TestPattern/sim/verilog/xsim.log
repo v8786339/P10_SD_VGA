@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Aug 15 22:44:17 2020
+# Process ID: 3280
+# Current directory: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/test_pattern1/xsim_script.tcl}
+# Log file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/sim/verilog/xsim.log
+# Journal file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/test_pattern1/xsim_script.tcl
+# xsim {test_pattern1} -autoloadwcfg -tclbatch {test_pattern1.tcl}
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source test_pattern1.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "12326565000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 12326605 ns : File "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/sim/verilog/test_pattern1.autotb.v" Line 275
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:06 . Memory (MB): peak = 225.223 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Aug 15 22:45:32 2020...

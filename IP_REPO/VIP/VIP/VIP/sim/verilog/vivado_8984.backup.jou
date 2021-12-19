@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Aug 16 09:16:45 2020
+# Process ID: 8984
+# Current directory: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog
+# Command line: vivado.exe -source open_wave.tcl
+# Log file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/vivado.log
+# Journal file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+open_wave_config D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/vip1_m.wcfg
+close_sim

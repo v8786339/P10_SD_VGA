@@ -1,0 +1,1019 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Aug 15 23:09:03 2020
+# Process ID: 1536
+# Current directory: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog
+# Command line: vivado.exe -notrace -mode batch -source run_vivado.tcl
+# Log file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/vivado.log
+# Journal file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog\vivado.jou
+#-----------------------------------------------------------
+source run_vivado.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog'
+[Sat Aug 15 23:09:07 2020] Launched synth_1...
+Run output will be captured here: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1/runme.log
+[Sat Aug 15 23:09:07 2020] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log test_pattern1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_pattern1.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source test_pattern1.tcl -notrace
+Command: synth_design -top test_pattern1 -part xc7z010clg400-2 -no_iobuf -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5912 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 331.016 ; gain = 97.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_pattern1' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.v:12]
+INFO: [Synth 8-638] synthesizing module 'Loop_loop_height1_pr' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 4'b0001 
+	Parameter ap_ST_fsm_state2 bound to: 4'b0010 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 4'b0100 
+	Parameter ap_ST_fsm_state5 bound to: 4'b1000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:59]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:431]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:433]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:435]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:437]
+INFO: [Synth 8-256] done synthesizing module 'Loop_loop_height1_pr' (1#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:10]
+INFO: [Synth 8-638] synthesizing module 'Mat2AXIvideo' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 4'b0001 
+	Parameter ap_ST_fsm_state2 bound to: 4'b0010 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 4'b0100 
+	Parameter ap_ST_fsm_state6 bound to: 4'b1000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:77]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_dest_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:256]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_id_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:282]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_keep_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:308]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_strb_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:370]
+INFO: [Synth 8-256] done synthesizing module 'Mat2AXIvideo' (2#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:10]
+INFO: [Synth 8-638] synthesizing module 'fifo_w8_d1_A' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:45]
+	Parameter MEM_STYLE bound to: auto - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_w8_d1_A_shiftReg' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:11]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_w8_d1_A_shiftReg' (3#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:11]
+INFO: [Synth 8-256] done synthesizing module 'fifo_w8_d1_A' (4#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:45]
+INFO: [Synth 8-256] done synthesizing module 'test_pattern1' (5#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 381.457 ; gain = 147.863
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 381.457 ; gain = 147.863
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+Finished Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 714.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element t_V_1_reg_114_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:213]
+INFO: [Synth 8-5546] ROM "tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge1_fu_364_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge3_fu_348_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_phi_reg_pp0_iter1_tmp_5_reg_176" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge_fu_356_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "exitcond1_fu_168_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_180_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "axi_last_V_fu_192_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element t_V_1_reg_152_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:490]
+INFO: [Synth 8-5544] ROM "internal_empty_n" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 9     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 30    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 15    
+	   3 Input      8 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 9     
+	   4 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 37    
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module test_pattern1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Loop_loop_height1_pr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 12    
+	   3 Input      8 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 1     
+Module Mat2AXIvideo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 8     
+	   4 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 17    
+Module fifo_w8_d1_A_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module fifo_w8_d1_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Loop_loop_height1_pr_U0/tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Loop_loop_height1_pr_U0/tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/exitcond_fu_180_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/exitcond1_fu_168_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/axi_last_V_fu_192_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element Loop_loop_height1_pr_U0/t_V_1_reg_114_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:213]
+WARNING: [Synth 8-6014] Unused sequential element Mat2AXIvideo_U0/t_V_1_reg_152_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:490]
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[2] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[1] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[0] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[2] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[1] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[0] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TID[0] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TDEST[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[0]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[1]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[2]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[3]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[4]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[0]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[1]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[2]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[3]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[4]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[0]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[1]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[2]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[3]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[4]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Loop_loop_height1_pr_U0/ap_done_reg_reg )
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Mat2AXIvideo_U0/ap_done_reg_reg )
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[0]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[0]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[1]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[1]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[2]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[2]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[3]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[3]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[4]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[4]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[8]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[8]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[9]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[9]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[10]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[10]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[11]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[11]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[12]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[12]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[16]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[16]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[17]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[18]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[17]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[18]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[18]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[19]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[18]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[19]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[20]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[19]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[20]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[20]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[20]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[21]'
+WARNING: [Synth 8-3332] Sequential element (Loop_loop_height1_pr_U0/ap_done_reg_reg) is unused and will be removed from module test_pattern1.
+WARNING: [Synth 8-3332] Sequential element (Mat2AXIvideo_U0/ap_done_reg_reg) is unused and will be removed from module test_pattern1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 725.027 ; gain = 491.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 755.172 ; gain = 521.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     8|
+|2     |LUT2 |    15|
+|3     |LUT3 |    39|
+|4     |LUT4 |    37|
+|5     |LUT5 |    50|
+|6     |LUT6 |    50|
+|7     |FDRE |   152|
+|8     |FDSE |    11|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------------+------------------------+------+
+|      |Instance                  |Module                  |Cells |
++------+--------------------------+------------------------+------+
+|1     |top                       |                        |   362|
+|2     |  Loop_loop_height1_pr_U0 |Loop_loop_height1_pr    |   135|
+|3     |  Mat2AXIvideo_U0         |Mat2AXIvideo            |   175|
+|4     |  imag0_0_data_stream_1_U |fifo_w8_d1_A            |    17|
+|5     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg_3 |     9|
+|6     |  imag0_0_data_stream_2_U |fifo_w8_d1_A_0          |    17|
+|7     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg_2 |     9|
+|8     |  imag0_0_data_stream_s_U |fifo_w8_d1_A_1          |    17|
+|9     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg   |     9|
++------+--------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 759.371 ; gain = 192.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 759.371 ; gain = 525.777
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+119 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 759.371 ; gain = 532.234
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1/test_pattern1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file test_pattern1_utilization_synth.rpt -pb test_pattern1_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 759.371 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 23:09:46 2020...
+[Sat Aug 15 23:09:47 2020] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:40 . Memory (MB): peak = 233.563 ; gain = 0.000
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-2
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z010clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+Finished Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 550.828 ; gain = 317.266
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 550.828 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+report_timing: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1086.895 ; gain = 536.066
+[Sat Aug 15 23:10:06 2020] Launched impl_1...
+Run output will be captured here: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/runme.log
+[Sat Aug 15 23:10:06 2020] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log test_pattern1.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source test_pattern1.tcl -notrace
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source test_pattern1.tcl -notrace
+Command: open_checkpoint D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 226.648 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z010clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/.Xil/Vivado-1588-dereck/dcp1/test_pattern1.xdc]
+Finished Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/.Xil/Vivado-1588-dereck/dcp1/test_pattern1.xdc]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2017.4 (64-bit) build 2086221
+open_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 538.738 ; gain = 312.090
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.438 . Memory (MB): peak = 551.609 ; gain = 11.371
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1085.055 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: a5ab8989
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1085.055 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1085.055 ; gain = 546.316
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file test_pattern1_drc_opted.rpt -pb test_pattern1_drc_opted.pb -rpx test_pattern1_drc_opted.rpx
+Command: report_drc -file test_pattern1_drc_opted.rpt -pb test_pattern1_drc_opted.pb -rpx test_pattern1_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1085.055 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 57780eec
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1085.055 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7a55273f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.258 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1059c2d41
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.355 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1059c2d41
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.356 . Memory (MB): peak = 1085.055 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1059c2d41
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 135749f5c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.941 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 135749f5c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.943 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: ec1f67d5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.993 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 9f8ef289
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.996 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 9f8ef289
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.997 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 1816f28c8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1512a7ab4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1512a7ab4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1085.055 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1512a7ab4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1085.055 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: bb964271
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: bb964271
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.566. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: abd40401
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+Phase 4.1 Post Commit Optimization | Checksum: abd40401
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: abd40401
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: abd40401
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: c4d6aea6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: c4d6aea6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+Ending Placer Task | Checksum: 3b7c4dcd
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1086.492 ; gain = 1.438
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1086.844 ; gain = 0.352
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file test_pattern1_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1093.391 ; gain = 6.547
+INFO: [runtcl-4] Executing : report_utilization -file test_pattern1_utilization_placed.rpt -pb test_pattern1_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1093.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file test_pattern1_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1093.391 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.500 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1093.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 2eaf4d5 ConstDB: 0 ShapeSum: 389158f8 RouteDB: 0
+
+Phase 1 Build RT Design
+WARNING: [Route 35-197] Clock port "ap_clk" does not have an associated HD.CLK_SRC. Without this constraint, timing analysis may not be accurate and upstream checks cannot be done to ensure correct clock placement.
+WARNING: [Route 35-198] Port "ap_rst_n" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "ap_rst_n". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "src_axi0_TREADY" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "src_axi0_TREADY". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "ap_start" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "ap_start". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+Phase 1 Build RT Design | Checksum: 11f501085
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1139.402 ; gain = 46.012
+Post Restoration Checksum: NetGraph: e12b69c2 NumContArr: 3e24a6c3 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 11f501085
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1139.402 ; gain = 46.012
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 11f501085
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1145.395 ; gain = 52.004
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 11f501085
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1145.395 ; gain = 52.004
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1e8435a4c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.662  | TNS=0.000  | WHS=0.089  | THS=0.000  |
+
+Phase 2 Router Initialization | Checksum: 231dfa43e
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 128d9c619
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.730  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 12ac382c7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+Phase 4 Rip-up And Reroute | Checksum: 12ac382c7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 12ac382c7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 12ac382c7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+Phase 5 Delay and Skew Optimization | Checksum: 12ac382c7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1b9465c12
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.730  | TNS=0.000  | WHS=0.109  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1b9465c12
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+Phase 6 Post Hold Fix | Checksum: 1b9465c12
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0547579 %
+  Global Horizontal Routing Utilization  = 0.0668658 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 194484f28
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.008 ; gain = 52.617
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 194484f28
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1147.973 ; gain = 54.582
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 120775388
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1147.973 ; gain = 54.582
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.730  | TNS=0.000  | WHS=0.109  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 120775388
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1147.973 ; gain = 54.582
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1147.973 ; gain = 54.582
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+63 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1147.973 ; gain = 54.582
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1147.973 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file test_pattern1_drc_routed.rpt -pb test_pattern1_drc_routed.pb -rpx test_pattern1_drc_routed.rpx
+Command: report_drc -file test_pattern1_drc_routed.rpt -pb test_pattern1_drc_routed.pb -rpx test_pattern1_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file test_pattern1_methodology_drc_routed.rpt -pb test_pattern1_methodology_drc_routed.pb -rpx test_pattern1_methodology_drc_routed.rpx
+Command: report_methodology -file test_pattern1_methodology_drc_routed.rpt -pb test_pattern1_methodology_drc_routed.pb -rpx test_pattern1_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/impl_1/test_pattern1_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file test_pattern1_power_routed.rpt -pb test_pattern1_power_summary_routed.pb -rpx test_pattern1_power_routed.rpx
+Command: report_power -file test_pattern1_power_routed.rpt -pb test_pattern1_power_summary_routed.pb -rpx test_pattern1_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+75 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file test_pattern1_route_status.rpt -pb test_pattern1_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file test_pattern1_timing_summary_routed.rpt -rpx test_pattern1_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file test_pattern1_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file test_pattern1_clock_utilization_routed.rpt
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 23:10:51 2020...
+[Sat Aug 15 23:10:56 2020] impl_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:50 . Memory (MB): peak = 1092.602 ; gain = 4.012
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/.Xil/Vivado-1536-dereck/dcp2/test_pattern1.xdc]
+Finished Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/.Xil/Vivado-1536-dereck/dcp2/test_pattern1.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 1207.387 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 1207.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1313.379 ; gain = 0.000
+
+
+Implementation tool: Xilinx Vivado v.2017.4
+Project:             TestPattern
+Solution:            TestPattern
+Device target:       xc7z010clg400-2
+Report date:         Sat Aug 15 23:10:57 +0800 2020
+
+#=== Post-Implementation Resource usage ===
+SLICE:           59
+LUT:            155
+FF:             163
+DSP:              0
+BRAM:             0
+SRL:              0
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    4.301
+CP achieved post-implementation:    4.278
+Timing met
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 23:10:57 2020...

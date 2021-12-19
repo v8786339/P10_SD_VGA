@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="D:\BaiduNetdiskDownload\P10_SD_VGA_m\IP_REPO\axi_master\example.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="example_test.cpp" path="D:\BaiduNetdiskDownload\P10_SD_VGA_m\IP_REPO\axi_master\example_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

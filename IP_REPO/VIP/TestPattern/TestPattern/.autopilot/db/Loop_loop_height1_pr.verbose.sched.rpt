@@ -1,0 +1,224 @@
+
+
+================================================================
+== Vivado HLS Report for 'Loop_loop_height1_pr'
+================================================================
+* Date:           Sat Aug 15 22:41:49 2020
+
+* Version:        2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)
+* Project:        TestPattern
+* Solution:       TestPattern
+* Product family: zynq
+* Target device:  xc7z010clg400-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      4.26|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+---------+
+    |      Latency      |      Interval     | Pipeline|
+    |   min   |   max   |   min   |   max   |   Type  |
+    +---------+---------+---------+---------+---------+
+    |  1231681|  1231681|  1231681|  1231681|   none  |
+    +---------+---------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                |      Latency      | Iteration|  Initiation Interval  | Trip |          |
+        |    Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- loop_height1  |  1231680|  1231680|      1283|          -|          -|   960|    no    |
+        | + loop_width1  |     1280|     1280|         2|          1|          1|  1280|    yes   |
+        +----------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 3 4 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!tmp_i)
+3 --> 
+	5  / (tmp_2_i)
+	4  / (!tmp_2_i)
+4 --> 
+	3  / true
+5 --> 
+	2  / true
+
+* FSM state operations: 
+
+ <State 1> : 1.30ns
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %imag0_0_data_stream_2_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %imag0_0_data_stream_1_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %imag0_0_data_stream_0_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"
+ST_1 : Operation 9 [1/1] (1.30ns)   --->   "br label %0"
+
+ <State 2> : 2.02ns
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "%t_V = phi i10 [ 0, %newFuncRoot ], [ %i_V, %1 ]"
+ST_2 : Operation 11 [1/1] (1.44ns)   --->   "%tmp_i = icmp eq i10 %t_V, -64" [TestPattern/tp.cpp:81]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 960, i64 960, i64 960)"
+ST_2 : Operation 13 [1/1] (1.70ns)   --->   "%i_V = add i10 %t_V, 1" [TestPattern/tp.cpp:81]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.70> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "br i1 %tmp_i, label %test_pattern1_.exit.exitStub, label %3" [TestPattern/tp.cpp:81]
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([13 x i8]* @p_str6) nounwind" [TestPattern/tp.cpp:81]
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str6)" [TestPattern/tp.cpp:81]
+ST_2 : Operation 17 [1/1] (1.44ns)   --->   "%tmp_1_i = icmp ult i10 %t_V, 480" [TestPattern/tp.cpp:85]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (1.30ns)   --->   "br label %2" [TestPattern/tp.cpp:82]
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "ret void"
+
+ <State 3> : 4.26ns
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%t_V_1 = phi i11 [ 0, %3 ], [ %j_V, %"operator<<.exit.i" ]"
+ST_3 : Operation 21 [1/1] (1.52ns)   --->   "%tmp_2_i = icmp eq i11 %t_V_1, -768" [TestPattern/tp.cpp:82]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 22 [1/1] (0.00ns)   --->   "%empty_18 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1280, i64 1280, i64 1280)"
+ST_3 : Operation 23 [1/1] (1.70ns)   --->   "%j_V = add i11 %t_V_1, 1" [TestPattern/tp.cpp:82]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.70> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 24 [1/1] (0.00ns)   --->   "br i1 %tmp_2_i, label %1, label %5" [TestPattern/tp.cpp:82]
+ST_3 : Operation 25 [1/1] (1.52ns)   --->   "%tmp_4_i = icmp ult i11 %t_V_1, 160" [TestPattern/tp.cpp:87]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "br i1 %tmp_1_i, label %4, label %11" [TestPattern/tp.cpp:85]
+ST_3 : Operation 27 [1/1] (1.58ns)   --->   "br i1 %tmp_4_i, label %"operator<<.exit.i", label %12" [TestPattern/tp.cpp:130]
+ST_3 : Operation 28 [1/1] (1.52ns)   --->   "%tmp_7_i = icmp ult i11 %t_V_1, 320" [TestPattern/tp.cpp:136]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 29 [1/1] (1.58ns)   --->   "br i1 %tmp_7_i, label %"operator<<.exit.i", label %13" [TestPattern/tp.cpp:136]
+ST_3 : Operation 30 [1/1] (1.52ns)   --->   "%tmp_9_i = icmp ult i11 %t_V_1, 480" [TestPattern/tp.cpp:142]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 31 [1/1] (1.58ns)   --->   "br i1 %tmp_9_i, label %"operator<<.exit.i", label %15" [TestPattern/tp.cpp:142]
+ST_3 : Operation 32 [1/1] (1.52ns)   --->   "%tmp_3_i = icmp ult i11 %t_V_1, 640" [TestPattern/tp.cpp:148]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 33 [1/1] (1.58ns)   --->   "br i1 %tmp_3_i, label %"operator<<.exit.i", label %14" [TestPattern/tp.cpp:148]
+ST_3 : Operation 34 [1/1] (1.52ns)   --->   "%tmp_11_i = icmp ult i11 %t_V_1, 800" [TestPattern/tp.cpp:150]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 35 [1/1] (1.58ns)   --->   "br i1 %tmp_11_i, label %"operator<<.exit.i", label %16" [TestPattern/tp.cpp:150]
+ST_3 : Operation 36 [1/1] (1.52ns)   --->   "%tmp_13_i = icmp ult i11 %t_V_1, 960" [TestPattern/tp.cpp:156]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 37 [1/1] (1.58ns)   --->   "br i1 %tmp_13_i, label %"operator<<.exit.i", label %"operator=.exit.i"" [TestPattern/tp.cpp:156]
+ST_3 : Operation 38 [1/1] (1.52ns)   --->   "%tmp_17_i = icmp ult i11 %t_V_1, -928" [TestPattern/tp.cpp:162]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 39 [1/1] (1.15ns)   --->   "%storemerge3 = select i1 %tmp_17_i, i8 64, i8 -128" [TestPattern/tp.cpp:162]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.15> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 40 [1/1] (1.15ns)   --->   "%storemerge = select i1 %tmp_17_i, i8 -1, i8 -128" [TestPattern/tp.cpp:162]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.15> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (1.58ns)   --->   "br label %"operator<<.exit.i""
+ST_3 : Operation 42 [1/1] (1.58ns)   --->   "br i1 %tmp_4_i, label %"operator<<.exit.i", label %6" [TestPattern/tp.cpp:87]
+ST_3 : Operation 43 [1/1] (1.52ns)   --->   "%tmp_6_i = icmp ult i11 %t_V_1, 320" [TestPattern/tp.cpp:93]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 44 [1/1] (1.58ns)   --->   "br i1 %tmp_6_i, label %"operator<<.exit.i", label %7" [TestPattern/tp.cpp:93]
+ST_3 : Operation 45 [1/1] (1.52ns)   --->   "%tmp_8_i = icmp ult i11 %t_V_1, 480" [TestPattern/tp.cpp:99]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (1.58ns)   --->   "br i1 %tmp_8_i, label %"operator<<.exit.i", label %9" [TestPattern/tp.cpp:99]
+ST_3 : Operation 47 [1/1] (1.52ns)   --->   "%tmp_i_21 = icmp ult i11 %t_V_1, 640" [TestPattern/tp.cpp:105]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 48 [1/1] (1.58ns)   --->   "br i1 %tmp_i_21, label %"operator<<.exit.i", label %8" [TestPattern/tp.cpp:105]
+ST_3 : Operation 49 [1/1] (1.52ns)   --->   "%tmp_10_i = icmp ult i11 %t_V_1, 800" [TestPattern/tp.cpp:107]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 50 [1/1] (1.58ns)   --->   "br i1 %tmp_10_i, label %"operator<<.exit.i", label %10" [TestPattern/tp.cpp:107]
+ST_3 : Operation 51 [1/1] (1.52ns)   --->   "%tmp_12_i = icmp ult i11 %t_V_1, 960" [TestPattern/tp.cpp:113]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 52 [1/1] (1.58ns)   --->   "br i1 %tmp_12_i, label %"operator<<.exit.i", label %"operator=.exit230.i"" [TestPattern/tp.cpp:113]
+ST_3 : Operation 53 [1/1] (1.52ns)   --->   "%tmp_15_i = icmp ult i11 %t_V_1, -928" [TestPattern/tp.cpp:119]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.44> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 54 [1/1] (1.15ns)   --->   "%storemerge1 = select i1 %tmp_15_i, i8 -128, i8 -1" [TestPattern/tp.cpp:119]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.15> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 55 [1/1] (0.00ns) (grouped into LUT with out node storemerge2_cast)   --->   "%not_tmp_15_i = xor i1 %tmp_15_i, true" [TestPattern/tp.cpp:119]   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.57> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 56 [1/1] (1.15ns) (out node of the LUT)   --->   "%storemerge2_cast = select i1 %not_tmp_15_i, i8 -1, i8 0" [TestPattern/tp.cpp:119]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.15> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 57 [1/1] (1.58ns)   --->   "br label %"operator<<.exit.i""
+
+ <State 4> : 3.40ns
+ST_4 : Operation 58 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([12 x i8]* @p_str7) nounwind" [TestPattern/tp.cpp:82]
+ST_4 : Operation 59 [1/1] (0.00ns)   --->   "%tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str7)" [TestPattern/tp.cpp:82]
+ST_4 : Operation 60 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [TestPattern/tp.cpp:84]
+ST_4 : Operation 61 [1/1] (0.00ns)   --->   "%tmp_4 = phi i8 [ -1, %4 ], [ 0, %6 ], [ 0, %7 ], [ -1, %8 ], [ -1, %9 ], [ %storemerge1, %"operator=.exit230.i" ], [ 0, %10 ], [ -1, %11 ], [ 0, %12 ], [ -1, %13 ], [ -1, %14 ], [ 0, %15 ], [ -128, %"operator=.exit.i" ], [ 64, %16 ]" [TestPattern/tp.cpp:119]
+ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%tmp_5 = phi i8 [ 0, %4 ], [ -1, %6 ], [ 0, %7 ], [ -128, %8 ], [ -1, %9 ], [ %storemerge2_cast, %"operator=.exit230.i" ], [ -1, %10 ], [ -1, %11 ], [ -1, %12 ], [ 0, %13 ], [ -128, %14 ], [ 0, %15 ], [ %storemerge3, %"operator=.exit.i" ], [ -1, %16 ]" [TestPattern/tp.cpp:119]
+ST_4 : Operation 63 [1/1] (0.00ns)   --->   "%tmp_6 = phi i8 [ 0, %4 ], [ 0, %6 ], [ -1, %7 ], [ 0, %8 ], [ -1, %9 ], [ -1, %"operator=.exit230.i" ], [ -128, %10 ], [ 0, %11 ], [ -1, %12 ], [ -1, %13 ], [ 64, %14 ], [ 0, %15 ], [ %storemerge, %"operator=.exit.i" ], [ -128, %16 ]" [TestPattern/tp.cpp:162]
+ST_4 : Operation 64 [1/1] (0.00ns)   --->   "%tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str20)" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:641->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]
+ST_4 : Operation 65 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecProtocol(i32 0, [1 x i8]* @p_str) nounwind" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:645->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]
+ST_4 : Operation 66 [1/1] (3.40ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i8P(i8* %imag0_0_data_stream_0_V, i8 %tmp_4)" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:648->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]   --->   Core 32 'FIFO' <Latency = 0> <II = 1> <Delay = 3.40> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 1> <FIFO>
+ST_4 : Operation 67 [1/1] (3.40ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i8P(i8* %imag0_0_data_stream_1_V, i8 %tmp_5)" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:648->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]   --->   Core 32 'FIFO' <Latency = 0> <II = 1> <Delay = 3.40> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 1> <FIFO>
+ST_4 : Operation 68 [1/1] (3.40ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i8P(i8* %imag0_0_data_stream_2_V, i8 %tmp_6)" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:648->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]   --->   Core 32 'FIFO' <Latency = 0> <II = 1> <Delay = 3.40> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 1> <FIFO>
+ST_4 : Operation 69 [1/1] (0.00ns)   --->   "%empty_19 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str20, i32 %tmp_2)" [D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:650->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171]
+ST_4 : Operation 70 [1/1] (0.00ns)   --->   "%empty_20 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str7, i32 %tmp_1)" [TestPattern/tp.cpp:172]
+ST_4 : Operation 71 [1/1] (0.00ns)   --->   "br label %2" [TestPattern/tp.cpp:82]
+
+ <State 5> : 0.00ns
+ST_5 : Operation 72 [1/1] (0.00ns)   --->   "%empty_17 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str6, i32 %tmp)" [TestPattern/tp.cpp:174]
+ST_5 : Operation 73 [1/1] (0.00ns)   --->   "br label %0" [TestPattern/tp.cpp:81]
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.3ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i.V') with incoming values : ('i.V', TestPattern/tp.cpp:81) [9]  (1.3 ns)
+
+ <State 2>: 2.02ns
+The critical path consists of the following:
+	'icmp' operation ('tmp_i', TestPattern/tp.cpp:81) [10]  (1.44 ns)
+	blocking operation 0.576 ns on control path)
+
+ <State 3>: 4.26ns
+The critical path consists of the following:
+	'phi' operation ('j.V') with incoming values : ('j.V', TestPattern/tp.cpp:82) [20]  (0 ns)
+	'icmp' operation ('tmp_17_i', TestPattern/tp.cpp:162) [49]  (1.53 ns)
+	'select' operation ('storemerge', TestPattern/tp.cpp:162) [51]  (1.15 ns)
+	multiplexor before 'phi' operation ('tmp', TestPattern/tp.cpp:119) with incoming values : ('storemerge1', TestPattern/tp.cpp:119) [77]  (1.59 ns)
+
+ <State 4>: 3.4ns
+The critical path consists of the following:
+	'phi' operation ('tmp', TestPattern/tp.cpp:119) with incoming values : ('storemerge1', TestPattern/tp.cpp:119) [77]  (0 ns)
+	fifo write on port 'imag0_0_data_stream_0_V' (D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:648->D:/Xilinx/Vivado/2017.4/common/technology/autopilot/hls/hls_video_core.h:662->TestPattern/tp.cpp:171) [82]  (3.4 ns)
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,78 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 15 23:10:37 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file test_pattern1_control_sets_placed.rpt
+| Design       : test_pattern1
+| Device       : xc7z010
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              33 |           15 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              22 |            9 |
+| Yes          | No                    | No                     |              56 |           15 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              52 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------+--------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+| Clock Signal |                         Enable Signal                        |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++--------------+--------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|  ap_clk      | Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_0 | Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225[6] |                2 |              4 |
+|  ap_clk      | Mat2AXIvideo_U0/E[0]                                         | Mat2AXIvideo_U0/ap_rst_n_inv                                  |                1 |              6 |
+|  ap_clk      | Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_load_A             |                                                               |                2 |              9 |
+|  ap_clk      | Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_load_B             |                                                               |                2 |              9 |
+|  ap_clk      | Loop_loop_height1_pr_U0/ap_CS_fsm_state5                     | Loop_loop_height1_pr_U0/t_V_reg_103_1                         |                2 |             10 |
+|  ap_clk      | Loop_loop_height1_pr_U0/ap_CS_fsm_state2                     |                                                               |                3 |             10 |
+|  ap_clk      | Mat2AXIvideo_U0/i_V_reg_2290                                 |                                                               |                4 |             10 |
+|  ap_clk      | Mat2AXIvideo_U0/ap_CS_fsm_state6                             | Mat2AXIvideo_U0/t_V_reg_141_0                                 |                2 |             10 |
+|  ap_clk      | Mat2AXIvideo_U0/t_V_1_reg_1520                               | Mat2AXIvideo_U0/t_V_1_reg_152                                 |                4 |             11 |
+|  ap_clk      | Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_0 | Loop_loop_height1_pr_U0/t_V_1_reg_114                         |                5 |             11 |
+|  ap_clk      | Loop_loop_height1_pr_U0/shiftReg_ce                          |                                                               |                4 |             18 |
+|  ap_clk      |                                                              | Mat2AXIvideo_U0/ap_rst_n_inv                                  |                9 |             22 |
+|  ap_clk      |                                                              |                                                               |               15 |             33 |
++--------------+--------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     1 |
+| 6      |                     1 |
+| 9      |                     2 |
+| 10     |                     4 |
+| 11     |                     2 |
+| 16+    |                     3 |
++--------+-----------------------+
+
+

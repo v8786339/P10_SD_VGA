@@ -1,0 +1,79 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 13 02:05:46 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq_sys_vip1_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq_sys_vip1_0_1 (xilinx.com:hls:vip1:1.0) from (Rev. 2008120636) to (Rev. 2008130202)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 13 01:43:02 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq_sys_test_pattern_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq_sys_test_pattern_0_1 (xilinx.com:hls:test_pattern:1.0) from (Rev. 2008130117) to (Rev. 2008130133)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 13 01:18:49 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq_sys_test_pattern_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq_sys_test_pattern_0_1 (xilinx.com:hls:test_pattern:1.0) from (Rev. 2008130058) to (Rev. 2008130117)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 13 01:03:04 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zynq_sys_test_pattern_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zynq_sys_test_pattern_0_1 (xilinx.com:hls:test_pattern:1.0) from (Rev. 2008130022) to (Rev. 2008130058)
+

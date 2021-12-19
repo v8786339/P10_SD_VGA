@@ -1,0 +1,111 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 16 09:25:04 2020
+| Host         : dereck running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file vip1_m_control_sets_placed.rpt
+| Design       : vip1_m
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    45 |
+| Unused register locations in slices containing registers |   154 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              60 |           31 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             131 |           49 |
+| Yes          | No                    | No                     |             379 |           91 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             292 |           84 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------+----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+----------------+
+| Clock Signal |                                            Enable Signal                                           |                                         Set/Reset Signal                                        | Slice Load Count | Bel Load Count |
++--------------+----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+----------------+
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/p_11_in                                       |                                                                                                 |                1 |              4 |
+|  ap_clk      | Mat2AXIvideo_U0/E[0]                                                                               | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              6 |
+|  ap_clk      | AXIvideo2Mat_U0/E[0]                                                                               | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                2 |              6 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_1_fifo_U/pop                                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                2 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/p_24_in                                       | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/ap_phi_reg_pp0_iter2_tmp_23_reg_285_reg[7] |                4 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/p_24_in                                       | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/ap_phi_reg_pp0_iter2_tmp_24_reg_297_reg[7] |                4 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/p_24_in                                       | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/ap_phi_reg_pp0_iter2_tmp_22_reg_273_reg[7] |                4 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag3_0_data_stream_2_fifo_U/pop                                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag3_0_data_stream_1_fifo_U/pop                                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_s_fifo_U/pop                                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag3_0_data_stream_s_fifo_U/pop                                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/s_val_0_reg_632_reg[0][0]                     |                                                                                                 |                1 |              8 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/pop_2                                         | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                1 |              8 |
+|  ap_clk      | AXIvideo2Mat_U0/ap_CS_fsm_state10                                                                  | AXIvideo2Mat_U0/ap_CS_fsm_state3                                                                |                3 |              9 |
+|  ap_clk      | AXIvideo2Mat_U0/ap_CS_fsm_state4                                                                   |                                                                                                 |                3 |              9 |
+|  ap_clk      | Mat2AXIvideo_U0/ap_CS_fsm_state6                                                                   | Mat2AXIvideo_U0/t_V_reg_141_0                                                                   |                2 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_s_fifo_U/usedw[9]_i_1__2_n_0                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/ap_CS_fsm_state2                                                           |                                                                                                 |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/ap_CS_fsm_state7                                                           | Loop_loop_height_pro_U0/t_V_reg_242                                                             |                2 |             10 |
+|  ap_clk      | Mat2AXIvideo_U0/i_V_reg_2290                                                                       |                                                                                                 |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag3_0_data_stream_s_fifo_U/usedw[9]_i_1__1_n_0                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                3 |             10 |
+|  ap_clk      | AXIvideo2Mat_U0/sof_1_fu_920                                                                       | AXIvideo2Mat_U0/t_V_2_reg_166                                                                   |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/usedw_reg[0]_2[0]                             | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/usedw[9]_i_1__4_n_0                           | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                4 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/tmp_13_reg_597_reg[0][0]                      |                                                                                                 |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/tmp_20_reg_592_reg[0][0]                      |                                                                                                 |                3 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/usedw_reg[0]_0[0]                             | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                4 |             10 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/usedw_reg[0]_1[0]                             | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |                4 |             10 |
+|  ap_clk      | Mat2AXIvideo_U0/t_V_1_reg_1520                                                                     | Mat2AXIvideo_U0/t_V_1_reg_152                                                                   |                4 |             11 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/t_V_1_reg_253_reg[0]_0[0]                     | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/t_V_1_reg_253_reg[0][0]                    |                3 |             11 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/ap_phi_reg_pp0_iter3_tmp_24_reg_297_reg[0][0] |                                                                                                 |                4 |             24 |
+|  ap_clk      | AXIvideo2Mat_U0/AXI_video_strm_V_data_V_0_load_A                                                   |                                                                                                 |                5 |             24 |
+|  ap_clk      | Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_load_B                                                   |                                                                                                 |                6 |             24 |
+|  ap_clk      | AXIvideo2Mat_U0/AXI_video_strm_V_data_V_0_load_B                                                   |                                                                                                 |                7 |             24 |
+|  ap_clk      | Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_load_A                                                   |                                                                                                 |                5 |             24 |
+|  ap_clk      | AXIvideo2Mat_U0/AXI_video_strm_V_data_V_0_sel2                                                     |                                                                                                 |                6 |             25 |
+|  ap_clk      | AXIvideo2Mat_U0/ap_NS_fsm[3]                                                                       |                                                                                                 |                4 |             25 |
+|  ap_clk      | AXIvideo2Mat_U0/eol_2_reg_236[0]_i_1_n_0                                                           |                                                                                                 |                7 |             26 |
+|  ap_clk      | AXIvideo2Mat_U0/eol_1_reg_189[0]_i_1_n_0                                                           |                                                                                                 |                9 |             26 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/mem_reg_0                                     | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |               10 |             33 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/shiftReg_ce                                   |                                                                                                 |               10 |             48 |
+|  ap_clk      | AXIvideo2Mat_U0/SRL_SIG_reg[0][7]                                                                  |                                                                                                 |               11 |             48 |
+|  ap_clk      | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/E[0]                                          | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |               14 |             54 |
+|  ap_clk      |                                                                                                    |                                                                                                 |               31 |             60 |
+|  ap_clk      |                                                                                                    | Loop_loop_height_pro_U0/imag2_0_data_stream_2_fifo_U/SR[0]                                      |               49 |            131 |
++--------------+----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     1 |
+| 6      |                     2 |
+| 8      |                    10 |
+| 9      |                     2 |
+| 10     |                    13 |
+| 11     |                     2 |
+| 16+    |                    15 |
++--------+-----------------------+
+
+

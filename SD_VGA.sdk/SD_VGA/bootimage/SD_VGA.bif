@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\FSBL\Debug\FSBL.elf
+	D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\zynq_sys_wrapper_hw_platform_0\zynq_sys_wrapper.bit
+	D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\SD_VGA\Debug\SD_VGA.elf
+}

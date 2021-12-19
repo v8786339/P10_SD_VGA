@@ -1,0 +1,20 @@
+
+
+Implementation tool: Xilinx Vivado v.2017.4
+Project:             TestPattern
+Solution:            TestPattern
+Device target:       xc7z010clg400-2
+Report date:         Sat Aug 15 23:10:57 +0800 2020
+
+#=== Post-Implementation Resource usage ===
+SLICE:           59
+LUT:            155
+FF:             163
+DSP:              0
+BRAM:             0
+SRL:              0
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    4.301
+CP achieved post-implementation:    4.278
+Timing met

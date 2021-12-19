@@ -1,0 +1,77 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "D:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_vip1_m_top glbl -prj vip1_m.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver --initfile D:/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s vip1_m -debug wave 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_axi_s_dst_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_dst_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_axi_s_src_axi0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_src_axi0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/AXIvideo2Mat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXIvideo2Mat
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/fifo_w8_d1_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w8_d1_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w8_d1_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/fifo_w8_d640_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w8_d640_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/Loop_loop_height_pro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Loop_loop_height_pro
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/Mat2AXIvideo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mat2AXIvideo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/start_for_Loop_locud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_Loop_locud_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_Loop_locud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/start_for_Mat2AXIdEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_Mat2AXIdEe_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_Mat2AXIdEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/vip1_m.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_vip1_m_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/vip1_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/sim/verilog/vip1_m_mul_mul_10bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_m_mul_mul_10bkb_DSP48_0
+INFO: [VRFC 10-311] analyzing module vip1_m_mul_mul_10bkb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AXIvideo2Mat
+Compiling module xil_defaultlib.vip1_m_mul_mul_10bkb_DSP48_0
+Compiling module xil_defaultlib.vip1_m_mul_mul_10bkb(ID=1,NUM_ST...
+Compiling module xil_defaultlib.fifo_w8_d640_A
+Compiling module xil_defaultlib.Loop_loop_height_pro
+Compiling module xil_defaultlib.Mat2AXIvideo
+Compiling module xil_defaultlib.fifo_w8_d1_A_shiftReg
+Compiling module xil_defaultlib.fifo_w8_d1_A
+Compiling module xil_defaultlib.start_for_Loop_locud_shiftReg
+Compiling module xil_defaultlib.start_for_Loop_locud
+Compiling module xil_defaultlib.start_for_Mat2AXIdEe_shiftReg
+Compiling module xil_defaultlib.start_for_Mat2AXIdEe
+Compiling module xil_defaultlib.vip1_m
+Compiling module xil_defaultlib.fifo(DEPTH=307200,WIDTH=24)
+Compiling module xil_defaultlib.fifo(DEPTH=307200,WIDTH=3)
+Compiling module xil_defaultlib.fifo(DEPTH=307200,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_src_axi0
+Compiling module xil_defaultlib.fifo(DEPTH=1228800,WIDTH=24)
+Compiling module xil_defaultlib.fifo(DEPTH=1228800,WIDTH=3)
+Compiling module xil_defaultlib.fifo(DEPTH=1228800,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_dst_axi
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.apatb_vip1_m_top
+Compiling module work.glbl
+Built simulation snapshot vip1_m

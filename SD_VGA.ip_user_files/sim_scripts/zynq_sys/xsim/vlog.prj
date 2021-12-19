@@ -1,0 +1,49 @@
+verilog xil_defaultlib --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/ec67/hdl" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/02c8/hdl/verilog" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/1313/hdl" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/f8d8/hdl" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/4868" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/6180/hdl/verilog" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/a08d/hdl/verilog" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/6851/hdl/verilog" --include "../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/82bb/hdl/verilog" \
+"../../../bd/zynq_sys/ip/zynq_sys_processing_system7_0_0/sim/zynq_sys_processing_system7_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_v_axi4s_vid_out_0_0/sim/zynq_sys_v_axi4s_vid_out_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_clk_wiz_0_0/zynq_sys_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_clk_wiz_0_0/zynq_sys_clk_wiz_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_util_vector_logic_0_0/sim/zynq_sys_util_vector_logic_0_0.v" \
+"../../../bd/zynq_sys/ipshared/4d05/VGA_OUT.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_VGA_OUT_0_0/sim/zynq_sys_VGA_OUT_0_0.v" \
+"../../../bd/zynq_sys/ipshared/0aa8/MSXBO_OVSensorRGB565.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_MSXBO_OVSensorRGB565_0_0/sim/zynq_sys_MSXBO_OVSensorRGB565_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_v_vid_in_axi4s_0_0/sim/zynq_sys_v_vid_in_axi4s_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xlconstant_0_0/sim/zynq_sys_xlconstant_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xlconstant_1_0/sim/zynq_sys_xlconstant_1_0.v" \
+"../../../bd/zynq_sys/sim/zynq_sys.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xbar_0/sim/zynq_sys_xbar_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_system_ila_1_0/bd_0/sim/bd_ed1d.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_system_ila_1_0/bd_0/ip/ip_0/sim/bd_ed1d_ila_lib_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_system_ila_1_0/sim/zynq_sys_system_ila_1_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xlconcat_0_0/sim/zynq_sys_xlconcat_0_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xlconcat_1_0/sim/zynq_sys_xlconcat_1_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xlconstant_2_0/sim/zynq_sys_xlconstant_2_0.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_xbar_1/sim/zynq_sys_xbar_1.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/AXIvideo2Mat.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/AXIvideo2Mat47.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/fifo_w8_d1_A.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/fifo_w8_d640_A.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/Loop_loop_height_pro.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/Mat2AXIvideo.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/start_for_Loop_locud.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/start_for_Mat2AXIdEe.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/vip1.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/vip1_ap_rst_n_if.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/vip1_CONTROL_BUS_if.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/vip1_mul_mul_10nsbkb.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/9e7a/hdl/verilog/vip1_top.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_vip1_0_1/sim/zynq_sys_vip1_0_1.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/Loop_loop_height1_pr.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/Mat2AXIvideo.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/test_pattern.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/test_pattern_ap_rst_n_if.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/test_pattern_CONTROL_BUS_if.v" \
+"../../../../SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/8cec/hdl/verilog/test_pattern_top.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_test_pattern_0_1/sim/zynq_sys_test_pattern_0_1.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_auto_pc_1/sim/zynq_sys_auto_pc_1.v" \
+"../../../bd/zynq_sys/ip/zynq_sys_auto_pc_0/sim/zynq_sys_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,12 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_s_src_axi0.v"
+sv xil_defaultlib "AESL_deadlock_detection_unit.v"
+sv xil_defaultlib "AESL_deadlock_detector.v"
+sv xil_defaultlib "AESL_deadlock_report_unit.v"
+sv xil_defaultlib "AESL_fifo.v"
+sv xil_defaultlib "fifo_w8_d1_A.v"
+sv xil_defaultlib "Loop_loop_height1_pr.v"
+sv xil_defaultlib "Mat2AXIvideo.v"
+sv xil_defaultlib "test_pattern1.autotb.v"
+sv xil_defaultlib "test_pattern1.v"
+

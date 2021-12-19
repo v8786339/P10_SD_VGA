@@ -1,0 +1,492 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Aug 15 23:09:09 2020
+# Process ID: 5432
+# Current directory: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1
+# Command line: vivado.exe -log test_pattern1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_pattern1.tcl
+# Log file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1/test_pattern1.vds
+# Journal file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test_pattern1.tcl -notrace
+Command: synth_design -top test_pattern1 -part xc7z010clg400-2 -no_iobuf -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5912 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 331.016 ; gain = 97.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_pattern1' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.v:12]
+INFO: [Synth 8-638] synthesizing module 'Loop_loop_height1_pr' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 4'b0001 
+	Parameter ap_ST_fsm_state2 bound to: 4'b0010 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 4'b0100 
+	Parameter ap_ST_fsm_state5 bound to: 4'b1000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:59]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:431]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:433]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:435]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:437]
+INFO: [Synth 8-256] done synthesizing module 'Loop_loop_height1_pr' (1#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:10]
+INFO: [Synth 8-638] synthesizing module 'Mat2AXIvideo' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 4'b0001 
+	Parameter ap_ST_fsm_state2 bound to: 4'b0010 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 4'b0100 
+	Parameter ap_ST_fsm_state6 bound to: 4'b1000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:77]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_dest_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:256]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_id_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:282]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_keep_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:308]
+WARNING: [Synth 8-6014] Unused sequential element AXI_video_strm_V_strb_V_1_sel_rd_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:370]
+INFO: [Synth 8-256] done synthesizing module 'Mat2AXIvideo' (2#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:10]
+INFO: [Synth 8-638] synthesizing module 'fifo_w8_d1_A' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:45]
+	Parameter MEM_STYLE bound to: auto - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_w8_d1_A_shiftReg' [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:11]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_w8_d1_A_shiftReg' (3#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:11]
+INFO: [Synth 8-256] done synthesizing module 'fifo_w8_d1_A' (4#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/fifo_w8_d1_A.v:45]
+INFO: [Synth 8-256] done synthesizing module 'test_pattern1' (5#1) [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 381.457 ; gain = 147.863
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 381.457 ; gain = 147.863
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+Finished Parsing XDC File [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/test_pattern1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 714.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element t_V_1_reg_114_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:213]
+INFO: [Synth 8-5546] ROM "tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge1_fu_364_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge3_fu_348_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_phi_reg_pp0_iter1_tmp_5_reg_176" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "storemerge_fu_356_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "exitcond1_fu_168_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_180_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "axi_last_V_fu_192_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element t_V_1_reg_152_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:490]
+INFO: [Synth 8-5544] ROM "internal_empty_n" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 9     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 30    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 15    
+	   3 Input      8 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 9     
+	   4 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 37    
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module test_pattern1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Loop_loop_height1_pr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 12    
+	   3 Input      8 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 1     
+Module Mat2AXIvideo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 8     
+	   4 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 17    
+Module fifo_w8_d1_A_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module fifo_w8_d1_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Loop_loop_height1_pr_U0/tmp_2_i_fu_330_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Loop_loop_height1_pr_U0/tmp_i_fu_312_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/exitcond_fu_180_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/exitcond1_fu_168_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Mat2AXIvideo_U0/axi_last_V_fu_192_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element Loop_loop_height1_pr_U0/t_V_1_reg_114_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Loop_loop_height1_pr.v:213]
+WARNING: [Synth 8-6014] Unused sequential element Mat2AXIvideo_U0/t_V_1_reg_152_reg was removed.  [D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/Mat2AXIvideo.v:490]
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[2] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[1] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TKEEP[0] driven by constant 1
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[2] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[1] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TSTRB[0] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TID[0] driven by constant 0
+WARNING: [Synth 8-3917] design test_pattern1 has port src_axi0_TDEST[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[0]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[1]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[2]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[3]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[4]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_4_reg_125_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[0]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[1]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[2]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[3]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[4]' (FDRE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_5_reg_176_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[0]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[1]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[2]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[3]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[4]' (FDSE) to 'Loop_loop_height1_pr_U0/ap_phi_reg_pp0_iter1_tmp_6_reg_225_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Loop_loop_height1_pr_U0/ap_done_reg_reg )
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_s_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_1_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][0]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][1]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][1]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][2]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][2]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][3]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][3]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][4]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][4]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][5]' (FDE) to 'imag0_0_data_stream_2_U/U_fifo_w8_d1_A_ram/SRL_SIG_reg[1][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Mat2AXIvideo_U0/ap_done_reg_reg )
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[0]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[0]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[1]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[1]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[2]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[2]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[3]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[3]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[4]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[4]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[8]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[8]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[9]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[9]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[10]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[10]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[11]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[11]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[12]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[12]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[16]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[16]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[17]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[18]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[17]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[18]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[18]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[19]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[18]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[19]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[20]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[19]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[20]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[20]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_B_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[20]' (FDE) to 'Mat2AXIvideo_U0/AXI_video_strm_V_data_V_1_payload_A_reg[21]'
+WARNING: [Synth 8-3332] Sequential element (Loop_loop_height1_pr_U0/ap_done_reg_reg) is unused and will be removed from module test_pattern1.
+WARNING: [Synth 8-3332] Sequential element (Mat2AXIvideo_U0/ap_done_reg_reg) is unused and will be removed from module test_pattern1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 714.602 ; gain = 481.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 725.027 ; gain = 491.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 755.172 ; gain = 521.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     8|
+|2     |LUT2 |    15|
+|3     |LUT3 |    39|
+|4     |LUT4 |    37|
+|5     |LUT5 |    50|
+|6     |LUT6 |    50|
+|7     |FDRE |   152|
+|8     |FDSE |    11|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------------+------------------------+------+
+|      |Instance                  |Module                  |Cells |
++------+--------------------------+------------------------+------+
+|1     |top                       |                        |   362|
+|2     |  Loop_loop_height1_pr_U0 |Loop_loop_height1_pr    |   135|
+|3     |  Mat2AXIvideo_U0         |Mat2AXIvideo            |   175|
+|4     |  imag0_0_data_stream_1_U |fifo_w8_d1_A            |    17|
+|5     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg_3 |     9|
+|6     |  imag0_0_data_stream_2_U |fifo_w8_d1_A_0          |    17|
+|7     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg_2 |     9|
+|8     |  imag0_0_data_stream_s_U |fifo_w8_d1_A_1          |    17|
+|9     |    U_fifo_w8_d1_A_ram    |fifo_w8_d1_A_shiftReg   |     9|
++------+--------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 759.371 ; gain = 525.777
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 759.371 ; gain = 192.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 759.371 ; gain = 525.777
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+119 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 759.371 ; gain = 532.234
+INFO: [Common 17-1381] The checkpoint 'D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/TestPattern/TestPattern/impl/verilog/project.runs/synth_1/test_pattern1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file test_pattern1_utilization_synth.rpt -pb test_pattern1_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 759.371 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 23:09:46 2020...

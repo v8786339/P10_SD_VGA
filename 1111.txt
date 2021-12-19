@@ -1,0 +1,1 @@
+print(i2c1.read_u8(0x3)+256*i2c1.read_u8(4),i2c1.read_u8(5)+256*i2c1.read_u8(6),i2c1.read_u8(7)+256*i2c1.read_u8(8),i2c1.read_u8(9))

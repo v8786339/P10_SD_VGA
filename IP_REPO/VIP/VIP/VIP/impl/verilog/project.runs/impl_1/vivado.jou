@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Aug 16 09:24:26 2020
+# Process ID: 6780
+# Current directory: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/impl/verilog/project.runs/impl_1
+# Command line: vivado.exe -log vip1_m.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vip1_m.tcl -notrace
+# Log file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/impl/verilog/project.runs/impl_1/vip1_m.vdi
+# Journal file: D:/BaiduNetdiskDownload/P10_SD_VGA_m/IP_REPO/VIP/VIP/VIP/impl/verilog/project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vip1_m.tcl -notrace

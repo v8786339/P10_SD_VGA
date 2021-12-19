@@ -1,0 +1,104 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_processing_system7_0_0/sim/zynq_sys_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_v_axi4s_vid_out_0_0/sim/zynq_sys_v_axi4s_vid_out_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_v_axi4s_vid_out_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_clk_wiz_0_0/zynq_sys_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_clk_wiz_0_0/zynq_sys_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_util_vector_logic_0_0/sim/zynq_sys_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ipshared/4d05/VGA_OUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_OUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_VGA_OUT_0_0/sim/zynq_sys_VGA_OUT_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_VGA_OUT_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ipshared/0aa8/MSXBO_OVSensorRGB565.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MSXBO_OVSensorRGB565
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_MSXBO_OVSensorRGB565_0_0/sim/zynq_sys_MSXBO_OVSensorRGB565_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_MSXBO_OVSensorRGB565_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_v_vid_in_axi4s_0_0/sim/zynq_sys_v_vid_in_axi4s_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_v_vid_in_axi4s_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xlconstant_0_0/sim/zynq_sys_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xlconstant_1_0/sim/zynq_sys_xlconstant_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xlconstant_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/sim/zynq_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1VEZLHQ
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_39ODZG
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_E972OA
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_1RF93XP
+INFO: [VRFC 10-311] analyzing module zynq_sys
+INFO: [VRFC 10-311] analyzing module zynq_sys_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module zynq_sys_ps7_0_axi_periph_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xbar_0/sim/zynq_sys_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_system_ila_1_0/bd_0/sim/bd_ed1d.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ed1d
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_system_ila_1_0/bd_0/ip/ip_0/sim/bd_ed1d_ila_lib_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ed1d_ila_lib_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_system_ila_1_0/sim/zynq_sys_system_ila_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_system_ila_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xlconcat_0_0/sim/zynq_sys_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xlconcat_1_0/sim/zynq_sys_xlconcat_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xlconcat_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xlconstant_2_0/sim/zynq_sys_xlconstant_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xlconstant_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/AXIvideo2Mat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXIvideo2Mat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Block_Mat_exit266136.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_Mat_exit266136
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/CvtColor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CvtColor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Duplicate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Duplicate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Duplicate60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Duplicate60
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Duplicate61.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Duplicate61
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/fifo_w10_d4_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w10_d4_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w10_d4_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/fifo_w11_d4_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w11_d4_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w11_d4_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/fifo_w8_d1_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w8_d1_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w8_d1_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Loop_loop_height_pro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Loop_loop_height_pro
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/Mat2AXIvideo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mat2AXIvideo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_ap_rst_n_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_ap_rst_n_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_CONTROL_BUS_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_CONTROL_BUS_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_mac_muladd_8cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_mac_muladd_8cud_DSP48_1
+INFO: [VRFC 10-311] analyzing module vip1_mac_muladd_8cud
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_mac_muladd_8dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_mac_muladd_8dEe_DSP48_2
+INFO: [VRFC 10-311] analyzing module vip1_mac_muladd_8dEe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_mul_mul_8ns_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_mul_mul_8ns_bkb_DSP48_0
+INFO: [VRFC 10-311] analyzing module vip1_mul_mul_8ns_bkb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/ipshared/5930/hdl/verilog/vip1_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vip1_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_vip1_0_0/sim/zynq_sys_vip1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_vip1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_xbar_1/sim/zynq_sys_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_auto_pc_1/sim/zynq_sys_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_auto_pc_0/sim/zynq_sys_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.srcs/sources_1/bd/zynq_sys/hdl/zynq_sys_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zynq_sys_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_axi_vdma_0_0/sim/zynq_sys_axi_vdma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity zynq_sys_axi_vdma_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/BaiduNetdiskDownload/P10_SD_VGA_m/SD_VGA.ip_user_files/bd/zynq_sys/ip/zynq_sys_rst_ps7_0_50M_0/sim/zynq_sys_rst_ps7_0_50M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity zynq_sys_rst_ps7_0_50M_0

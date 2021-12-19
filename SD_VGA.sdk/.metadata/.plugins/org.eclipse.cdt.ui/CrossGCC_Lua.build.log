@@ -1,0 +1,186 @@
+16:44:32 **** Build of configuration Debug for project CrossGCC_Lua ****
+make all 
+'Building file: ../src/lapi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lapi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lapi.d" -MT"src/lapi.o" -o "src/lapi.o" "../src/lapi.c"
+'Finished building: ../src/lapi.c'
+' '
+'Building file: ../src/lauxlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lauxlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lauxlib.d" -MT"src/lauxlib.o" -o "src/lauxlib.o" "../src/lauxlib.c"
+'Finished building: ../src/lauxlib.c'
+' '
+'Building file: ../src/lbaselib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lbaselib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lbaselib.d" -MT"src/lbaselib.o" -o "src/lbaselib.o" "../src/lbaselib.c"
+'Finished building: ../src/lbaselib.c'
+' '
+'Building file: ../src/lbitlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lbitlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lbitlib.d" -MT"src/lbitlib.o" -o "src/lbitlib.o" "../src/lbitlib.c"
+'Finished building: ../src/lbitlib.c'
+' '
+'Building file: ../src/lcode.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lcode.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lcode.d" -MT"src/lcode.o" -o "src/lcode.o" "../src/lcode.c"
+'Finished building: ../src/lcode.c'
+' '
+'Building file: ../src/lcorolib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lcorolib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lcorolib.d" -MT"src/lcorolib.o" -o "src/lcorolib.o" "../src/lcorolib.c"
+'Finished building: ../src/lcorolib.c'
+' '
+'Building file: ../src/lctype.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lctype.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lctype.d" -MT"src/lctype.o" -o "src/lctype.o" "../src/lctype.c"
+'Finished building: ../src/lctype.c'
+' '
+'Building file: ../src/ldblib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ldblib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ldblib.d" -MT"src/ldblib.o" -o "src/ldblib.o" "../src/ldblib.c"
+'Finished building: ../src/ldblib.c'
+' '
+'Building file: ../src/ldebug.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ldebug.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ldebug.d" -MT"src/ldebug.o" -o "src/ldebug.o" "../src/ldebug.c"
+'Finished building: ../src/ldebug.c'
+' '
+'Building file: ../src/ldo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ldo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ldo.d" -MT"src/ldo.o" -o "src/ldo.o" "../src/ldo.c"
+'Finished building: ../src/ldo.c'
+' '
+'Building file: ../src/ldump.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ldump.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ldump.d" -MT"src/ldump.o" -o "src/ldump.o" "../src/ldump.c"
+'Finished building: ../src/ldump.c'
+' '
+'Building file: ../src/lfunc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lfunc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lfunc.d" -MT"src/lfunc.o" -o "src/lfunc.o" "../src/lfunc.c"
+'Finished building: ../src/lfunc.c'
+' '
+'Building file: ../src/lgc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lgc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lgc.d" -MT"src/lgc.o" -o "src/lgc.o" "../src/lgc.c"
+'Finished building: ../src/lgc.c'
+' '
+'Building file: ../src/linit.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/linit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/linit.d" -MT"src/linit.o" -o "src/linit.o" "../src/linit.c"
+'Finished building: ../src/linit.c'
+' '
+'Building file: ../src/liolib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/liolib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/liolib.d" -MT"src/liolib.o" -o "src/liolib.o" "../src/liolib.c"
+'Finished building: ../src/liolib.c'
+' '
+'Building file: ../src/llex.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/llex.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/llex.d" -MT"src/llex.o" -o "src/llex.o" "../src/llex.c"
+'Finished building: ../src/llex.c'
+' '
+'Building file: ../src/lmathlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lmathlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lmathlib.d" -MT"src/lmathlib.o" -o "src/lmathlib.o" "../src/lmathlib.c"
+'Finished building: ../src/lmathlib.c'
+' '
+'Building file: ../src/lmem.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lmem.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lmem.d" -MT"src/lmem.o" -o "src/lmem.o" "../src/lmem.c"
+'Finished building: ../src/lmem.c'
+' '
+'Building file: ../src/loadlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/loadlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/loadlib.d" -MT"src/loadlib.o" -o "src/loadlib.o" "../src/loadlib.c"
+'Finished building: ../src/loadlib.c'
+' '
+'Building file: ../src/lobject.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lobject.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lobject.d" -MT"src/lobject.o" -o "src/lobject.o" "../src/lobject.c"
+'Finished building: ../src/lobject.c'
+' '
+'Building file: ../src/lopcodes.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lopcodes.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lopcodes.d" -MT"src/lopcodes.o" -o "src/lopcodes.o" "../src/lopcodes.c"
+'Finished building: ../src/lopcodes.c'
+' '
+'Building file: ../src/loslib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/loslib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/loslib.d" -MT"src/loslib.o" -o "src/loslib.o" "../src/loslib.c"
+'Finished building: ../src/loslib.c'
+' '
+'Building file: ../src/lparser.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lparser.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lparser.d" -MT"src/lparser.o" -o "src/lparser.o" "../src/lparser.c"
+'Finished building: ../src/lparser.c'
+' '
+'Building file: ../src/lstate.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lstate.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lstate.d" -MT"src/lstate.o" -o "src/lstate.o" "../src/lstate.c"
+'Finished building: ../src/lstate.c'
+' '
+'Building file: ../src/lstring.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lstring.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lstring.d" -MT"src/lstring.o" -o "src/lstring.o" "../src/lstring.c"
+'Finished building: ../src/lstring.c'
+' '
+'Building file: ../src/lstrlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lstrlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lstrlib.d" -MT"src/lstrlib.o" -o "src/lstrlib.o" "../src/lstrlib.c"
+'Finished building: ../src/lstrlib.c'
+' '
+'Building file: ../src/ltable.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ltable.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ltable.d" -MT"src/ltable.o" -o "src/ltable.o" "../src/ltable.c"
+'Finished building: ../src/ltable.c'
+' '
+'Building file: ../src/ltablib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ltablib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ltablib.d" -MT"src/ltablib.o" -o "src/ltablib.o" "../src/ltablib.c"
+'Finished building: ../src/ltablib.c'
+' '
+'Building file: ../src/ltm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/ltm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ltm.d" -MT"src/ltm.o" -o "src/ltm.o" "../src/ltm.c"
+'Finished building: ../src/ltm.c'
+' '
+'Building file: ../src/lua.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lua.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lua.d" -MT"src/lua.o" -o "src/lua.o" "../src/lua.c"
+'Finished building: ../src/lua.c'
+' '
+'Building file: ../src/luac.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/luac.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/luac.d" -MT"src/luac.o" -o "src/luac.o" "../src/luac.c"
+'Finished building: ../src/luac.c'
+' '
+'Building file: ../src/lundump.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lundump.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lundump.d" -MT"src/lundump.o" -o "src/lundump.o" "../src/lundump.c"
+'Finished building: ../src/lundump.c'
+' '
+'Building file: ../src/lutf8lib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lutf8lib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lutf8lib.d" -MT"src/lutf8lib.o" -o "src/lutf8lib.o" "../src/lutf8lib.c"
+'Finished building: ../src/lutf8lib.c'
+' '
+'Building file: ../src/lvm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lvm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lvm.d" -MT"src/lvm.o" -o "src/lvm.o" "../src/lvm.c"
+'Finished building: ../src/lvm.c'
+' '
+'Building file: ../src/lzio.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/lzio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lzio.d" -MT"src/lzio.o" -o "src/lzio.o" "../src/lzio.c"
+'Finished building: ../src/lzio.c'
+' '
+'Building target: libCrossGCC_Lua.a'
+'Invoking: ARM v7 archiver'
+arm-none-eabi-ar -r  "libCrossGCC_Lua.a"  ./src/lapi.o ./src/lauxlib.o ./src/lbaselib.o ./src/lbitlib.o ./src/lcode.o ./src/lcorolib.o ./src/lctype.o ./src/ldblib.o ./src/ldebug.o ./src/ldo.o ./src/ldump.o ./src/lfunc.o ./src/lgc.o ./src/linit.o ./src/liolib.o ./src/llex.o ./src/lmathlib.o ./src/lmem.o ./src/loadlib.o ./src/lobject.o ./src/lopcodes.o ./src/loslib.o ./src/lparser.o ./src/lstate.o ./src/lstring.o ./src/lstrlib.o ./src/ltable.o ./src/ltablib.o ./src/ltm.o ./src/lua.o ./src/luac.o ./src/lundump.o ./src/lutf8lib.o ./src/lvm.o ./src/lzio.o   
+arm-none-eabi-ar: creating libCrossGCC_Lua.a
+'Finished building target: libCrossGCC_Lua.a'
+' '
+
+16:44:44 Build Finished (took 11s.420ms)
+

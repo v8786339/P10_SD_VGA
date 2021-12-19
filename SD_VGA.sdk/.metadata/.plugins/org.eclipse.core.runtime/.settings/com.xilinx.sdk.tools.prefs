@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:heap=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:stack=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.SD_VGA\:stack-size=1024
+eclipse.preferences.version=1

@@ -1,0 +1,205 @@
+07:40:34 **** Build of project freertos901_xilinx_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_4/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/nandps_v2_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/nandps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/vip1_m_top_v1_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/vip1_m_top_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_4/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in ps7_cortexa9_0/libsrc/nandps_v2_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/nandps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling nandps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/vip1_m_top_v1_0/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/vip1_m_top_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling vip1_m_top"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src"
+D:/Xilinx/SDK/2017.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling XilFFs Library"
+'Finished building libraries'
+07:41:17 **** Build of configuration Debug for project SD_VGA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/I2C_16bit.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/I2C_16bit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/I2C_16bit.d" -MT"src/I2C_16bit.o" -o "src/I2C_16bit.o" "../src/I2C_16bit.c"
+Finished building: ../src/I2C_16bit.c
+ 
+Building file: ../src/echo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+In file included from ../src/echo.c:44:0:
+../src/echo.c: In function 'process_echo_request':
+G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h:133:25: warning: value computed is not used [-Wunused-value]
+  (luaL_loadstring(L, s) || lua_pcall(L, 0, LUA_MULTRET, 0))
+                         ^
+../src/echo.c:121:4: note: in expansion of macro 'luaL_dostring'
+    luaL_dostring(L,"zynq.print(\"Hello World\\r\\n\")");
+    ^~~~~~~~~~~~~
+G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h:133:25: warning: value computed is not used [-Wunused-value]
+  (luaL_loadstring(L, s) || lua_pcall(L, 0, LUA_MULTRET, 0))
+                         ^
+../src/echo.c:147:7: note: in expansion of macro 'luaL_dostring'
+       luaL_dostring(L,recv_buf);
+       ^~~~~~~~~~~~~
+../src/echo.c:110:8: warning: unused variable 'i' [-Wunused-variable]
+    int i=0;
+        ^
+../src/echo.c:109:8: warning: unused variable 'q' [-Wunused-variable]
+    int q=0;
+        ^
+../src/echo.c:108:9: warning: unused variable 'nwrote' [-Wunused-variable]
+  int n, nwrote;
+         ^~~~~~
+../src/echo.c: In function '_gettimeofday':
+../src/echo.c:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+ int _gettimeofday(){}
+ ^~~
+Finished building: ../src/echo.c
+ 
+Building file: ../src/led_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/led_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/led_button.d" -MT"src/led_button.o" -o "src/led_button.o" "../src/led_button.c"
+../src/led_button.c: In function 'Led_Button_task':
+../src/led_button.c:131:3: warning: implicit declaration of function 'vTaskDelay' [-Wimplicit-function-declaration]
+   vTaskDelay(5);
+   ^~~~~~~~~~
+Finished building: ../src/led_button.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:273:34: warning: passing argument 2 of 'sys_thread_new' from incompatible pointer type [-Wincompatible-pointer-types]
+     sys_thread_new("Led_Button", Led_Button_task, NULL,
+                                  ^~~~~~~~~~~~~~~
+In file included from ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/netif/xadapter.h:46:0,
+                 from ../src/main.c:60:
+../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/lwip/sys.h:230:14: note: expected 'lwip_thread_fn {aka void (*)(void *)}' but argument is of type 'int (*)(void)'
+ sys_thread_t sys_thread_new(const char *name, lwip_thread_fn thread, void *arg, int stacksize, int prio);
+              ^~~~~~~~~~~~~~
+../src/main.c:277:31: warning: passing argument 2 of 'sys_thread_new' from incompatible pointer type [-Wincompatible-pointer-types]
+     sys_thread_new("sd_test", sd_test_task, NULL,
+                               ^~~~~~~~~~~~
+In file included from ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/netif/xadapter.h:46:0,
+                 from ../src/main.c:60:
+../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/lwip/sys.h:230:14: note: expected 'lwip_thread_fn {aka void (*)(void *)}' but argument is of type 'int (*)(void)'
+ sys_thread_t sys_thread_new(const char *name, lwip_thread_fn thread, void *arg, int stacksize, int prio);
+              ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/sd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -c -fmessage-length=0 -MT"src/sd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include -I"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src" -MMD -MP -MF"src/sd.d" -MT"src/sd.o" -o "src/sd.o" "../src/sd.c"
+../src/sd.c: In function 'sd_test_task':
+../src/sd.c:137:3: warning: implicit declaration of function 'vTaskDelete' [-Wimplicit-function-declaration]
+   vTaskDelete(NULL);
+   ^~~~~~~~~~~
+../src/sd.c:125:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+Finished building: ../src/sd.c
+ 
+Building target: SD_VGA.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -L"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/lib -L"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -o "SD_VGA.elf"  ./src/I2C_16bit.o ./src/echo.o ./src/led_button.o ./src/main.o ./src/platform.o ./src/sd.o   -lCrossGCC_Lua -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: SD_VGA.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size SD_VGA.elf  |tee "SD_VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 425124	   5616	24172832	24603572	1776bb4	SD_VGA.elf
+Finished building: SD_VGA.elf.size
+ 

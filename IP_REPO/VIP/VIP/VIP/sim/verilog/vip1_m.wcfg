@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vip1_m.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_vip1_m_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">dst_axi(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TREADY" type="logic">
+               <obj_property name="ElementShortName">dst_axi_TREADY</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TVALID" type="logic">
+               <obj_property name="ElementShortName">dst_axi_TVALID</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TDEST" type="array">
+               <obj_property name="ElementShortName">dst_axi_TDEST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TDEST[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TID" type="array">
+               <obj_property name="ElementShortName">dst_axi_TID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TID[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TLAST" type="array">
+               <obj_property name="ElementShortName">dst_axi_TLAST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TLAST[0:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TUSER" type="array">
+               <obj_property name="ElementShortName">dst_axi_TUSER[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TUSER[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TSTRB" type="array">
+               <obj_property name="ElementShortName">dst_axi_TSTRB[2:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TSTRB[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TKEEP" type="array">
+               <obj_property name="ElementShortName">dst_axi_TKEEP[2:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TKEEP[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/dst_axi_TDATA" type="array">
+               <obj_property name="ElementShortName">dst_axi_TDATA[23:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TDATA[23:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group13" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group14" type="group">
+            <obj_property name="label">src_axi0(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TREADY" type="logic">
+               <obj_property name="ElementShortName">src_axi0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TVALID" type="logic">
+               <obj_property name="ElementShortName">src_axi0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TDEST" type="array">
+               <obj_property name="ElementShortName">src_axi0_TDEST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TDEST[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TID" type="array">
+               <obj_property name="ElementShortName">src_axi0_TID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TID[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TLAST" type="array">
+               <obj_property name="ElementShortName">src_axi0_TLAST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TLAST[0:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TUSER" type="array">
+               <obj_property name="ElementShortName">src_axi0_TUSER[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TUSER[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TSTRB" type="array">
+               <obj_property name="ElementShortName">src_axi0_TSTRB[2:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TSTRB[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TKEEP" type="array">
+               <obj_property name="ElementShortName">src_axi0_TKEEP[2:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TKEEP[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/src_axi0_TDATA" type="array">
+               <obj_property name="ElementShortName">src_axi0_TDATA[23:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TDATA[23:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group24" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group29" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group31" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_vip1_m_top/AESL_inst_vip1_m/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group34" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group35" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group36" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_data_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_data_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_data_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_keep_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_keep_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_keep_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_strb_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_strb_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_strb_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_user_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_user_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_user_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_last_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_last_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_last_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_id_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_id_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_id_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_src_axi0_V_dest_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_src_axi0_V_dest_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_src_axi0_V_dest_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_data_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_data_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_data_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_keep_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_keep_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_keep_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_strb_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_strb_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_strb_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_user_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_user_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_user_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_last_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_last_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_last_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_id_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_id_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_id_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/LENGTH_dst_axi_V_dest_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_dst_axi_V_dest_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dst_axi_V_dest_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group54" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group55" type="group">
+            <obj_property name="label">dst_axi(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TREADY" type="logic">
+               <obj_property name="ElementShortName">dst_axi_TREADY</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TVALID" type="logic">
+               <obj_property name="ElementShortName">dst_axi_TVALID</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TDEST" type="array">
+               <obj_property name="ElementShortName">dst_axi_TDEST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TDEST[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TID" type="array">
+               <obj_property name="ElementShortName">dst_axi_TID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TID[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TLAST" type="array">
+               <obj_property name="ElementShortName">dst_axi_TLAST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TLAST[0:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TUSER" type="array">
+               <obj_property name="ElementShortName">dst_axi_TUSER[0:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TUSER[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TSTRB" type="array">
+               <obj_property name="ElementShortName">dst_axi_TSTRB[2:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TSTRB[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TKEEP" type="array">
+               <obj_property name="ElementShortName">dst_axi_TKEEP[2:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TKEEP[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/dst_axi_TDATA" type="array">
+               <obj_property name="ElementShortName">dst_axi_TDATA[23:0]</obj_property>
+               <obj_property name="ObjectShortName">dst_axi_TDATA[23:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group65" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group66" type="group">
+            <obj_property name="label">src_axi0(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TREADY" type="logic">
+               <obj_property name="ElementShortName">src_axi0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TVALID" type="logic">
+               <obj_property name="ElementShortName">src_axi0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TDEST" type="array">
+               <obj_property name="ElementShortName">src_axi0_TDEST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TDEST[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TID" type="array">
+               <obj_property name="ElementShortName">src_axi0_TID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TID[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TLAST" type="array">
+               <obj_property name="ElementShortName">src_axi0_TLAST[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TLAST[0:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TUSER" type="array">
+               <obj_property name="ElementShortName">src_axi0_TUSER[0:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TUSER[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TSTRB" type="array">
+               <obj_property name="ElementShortName">src_axi0_TSTRB[2:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TSTRB[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TKEEP" type="array">
+               <obj_property name="ElementShortName">src_axi0_TKEEP[2:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TKEEP[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_vip1_m_top/src_axi0_TDATA" type="array">
+               <obj_property name="ElementShortName">src_axi0_TDATA[23:0]</obj_property>
+               <obj_property name="ObjectShortName">src_axi0_TDATA[23:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

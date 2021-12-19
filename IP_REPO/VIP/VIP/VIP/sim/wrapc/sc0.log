@@ -1,0 +1,5 @@
+   Build using "D:/Xilinx/Vivado/2017.4/msys/bin/g++.exe"
+   Compiling apatb_vip1_m.cpp
+   Compiling testvip.cpp_pre.cpp.tb.cpp
+   Compiling vip.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

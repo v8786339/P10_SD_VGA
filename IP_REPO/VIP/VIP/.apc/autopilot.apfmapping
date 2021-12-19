@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="vip.cpp" path="G:\BaiduNetdiskDownload\P10_SD_VGA_m\IP_REPO\VIP\VIP\vip.cpp"/>
+    <originFiles name="vip.h" path="G:\BaiduNetdiskDownload\P10_SD_VGA_m\IP_REPO\VIP\VIP\vip.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testvip.cpp" path="G:\BaiduNetdiskDownload\P10_SD_VGA_m\IP_REPO\VIP\VIP\testvip.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

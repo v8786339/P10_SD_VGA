@@ -1,0 +1,137 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'vip1_m'" level="0">
+<item name = "Date">Sun Aug 16 08:57:32 2020
+</item>
+<item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
+<item name = "Project">VIP</item>
+<item name = "Solution">VIP</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z010clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.15, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">1233604, 1233604, 1233602, 1233602, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="Loop_loop_height_pro_U0">Loop_loop_height_pro, 1233601, 1233601, 1233601, 1233601, none</column>
+<column name="AXIvideo2Mat_U0">AXIvideo2Mat, 310563, 310563, 310563, 310563, none</column>
+<column name="Mat2AXIvideo_U0">Mat2AXIvideo, 1232641, 1232641, 1232641, 1232641, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 8</column>
+<column name="FIFO">0, -, 30, 120</column>
+<column name="Instance">6, 1, 906, 2088</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, -</column>
+<column name="Register">-, -, -, -</column>
+<specialColumn name="Available">120, 80, 35200, 17600</specialColumn>
+<specialColumn name="Utilization (%)">5, 1, 2, 12</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="AXIvideo2Mat_U0">AXIvideo2Mat, 0, 0, 213, 552</column>
+<column name="Loop_loop_height_pro_U0">Loop_loop_height_pro, 6, 1, 574, 1078</column>
+<column name="Mat2AXIvideo_U0">Mat2AXIvideo, 0, 0, 119, 458</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+<column name="imag0_0_data_stream_1_U">0, 5, 20, 1, 8, 8</column>
+<column name="imag0_0_data_stream_2_U">0, 5, 20, 1, 8, 8</column>
+<column name="imag0_0_data_stream_s_U">0, 5, 20, 1, 8, 8</column>
+<column name="imag_1_data_stream_0_U">0, 5, 20, 1, 8, 8</column>
+<column name="imag_1_data_stream_1_U">0, 5, 20, 1, 8, 8</column>
+<column name="imag_1_data_stream_2_U">0, 5, 20, 1, 8, 8</column>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_idle">and, 0, 0, 8, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="src_axi0_TDATA">in, 24, axis, src_axi0_V_data_V, pointer</column>
+<column name="src_axi0_TKEEP">in, 3, axis, src_axi0_V_keep_V, pointer</column>
+<column name="src_axi0_TSTRB">in, 3, axis, src_axi0_V_strb_V, pointer</column>
+<column name="src_axi0_TUSER">in, 1, axis, src_axi0_V_user_V, pointer</column>
+<column name="src_axi0_TLAST">in, 1, axis, src_axi0_V_last_V, pointer</column>
+<column name="src_axi0_TID">in, 1, axis, src_axi0_V_id_V, pointer</column>
+<column name="src_axi0_TDEST">in, 1, axis, src_axi0_V_dest_V, pointer</column>
+<column name="src_axi0_TVALID">in, 1, axis, src_axi0_V_dest_V, pointer</column>
+<column name="src_axi0_TREADY">out, 1, axis, src_axi0_V_dest_V, pointer</column>
+<column name="dst_axi_TDATA">out, 24, axis, dst_axi_V_data_V, pointer</column>
+<column name="dst_axi_TKEEP">out, 3, axis, dst_axi_V_keep_V, pointer</column>
+<column name="dst_axi_TSTRB">out, 3, axis, dst_axi_V_strb_V, pointer</column>
+<column name="dst_axi_TUSER">out, 1, axis, dst_axi_V_user_V, pointer</column>
+<column name="dst_axi_TLAST">out, 1, axis, dst_axi_V_last_V, pointer</column>
+<column name="dst_axi_TID">out, 1, axis, dst_axi_V_id_V, pointer</column>
+<column name="dst_axi_TDEST">out, 1, axis, dst_axi_V_dest_V, pointer</column>
+<column name="dst_axi_TVALID">out, 1, axis, dst_axi_V_dest_V, pointer</column>
+<column name="dst_axi_TREADY">in, 1, axis, dst_axi_V_dest_V, pointer</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, vip1_m, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, vip1_m, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, vip1_m, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, vip1_m, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, vip1_m, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, vip1_m, return value</column>
+</table>
+</item>
+</section>
+</profile>
