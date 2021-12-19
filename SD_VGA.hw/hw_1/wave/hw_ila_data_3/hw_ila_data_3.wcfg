@@ -9,17 +9,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="177000fs"></ZoomStartTime>
-      <ZoomEndTime time="1150001fs"></ZoomEndTime>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1156149fs"></ZoomEndTime>
       <Cursor1Time time="353000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="2" />
-   <wave_markers>
-   </wave_markers>
    <wvobject fp_name="zynq_sys_i/axi_vdma_0/m_axis_mm2s_tdata" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">zynq_sys_i/axi_vdma_0/m_axis_mm2s_tdata[23:0]</obj_property>

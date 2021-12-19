@@ -38,7 +38,7 @@ main-build: SD_VGA.elf secondary-outputs
 SD_VGA.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM v7 gcc linker'
-	arm-none-eabi-gcc -L"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/lib -L"G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -o "SD_VGA.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -L"D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/lib -L"D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\Debug" -o "SD_VGA.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -39,10 +39,10 @@ src/echo.o src/echo.o: ../src/echo.c \
  ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/lwip/ip.h \
  ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/netif/xtopology.h \
  ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/xil_printf.h \
- G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h \
- G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/luaconf.h \
- G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h \
- G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h
+ D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h \
+ D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/luaconf.h \
+ D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h \
+ D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h
 
 ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/lwip/sockets.h:
 
@@ -124,10 +124,10 @@ src/echo.o src/echo.o: ../src/echo.c \
 
 ../../freertos901_xilinx_bsp_0/ps7_cortexa9_0/include/xil_printf.h:
 
-G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h:
+D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h:
 
-G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/luaconf.h:
+D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/luaconf.h:
 
-G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h:
+D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lauxlib.h:
 
-G:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h:
+D:\BaiduNetdiskDownload\P10_SD_VGA_m\SD_VGA.sdk\CrossGCC_Lua\src/lua.h:
